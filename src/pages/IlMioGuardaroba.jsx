@@ -14,6 +14,9 @@ import { useWishlist } from "../hooks/useWishlist";
 import { useCapiPersonali } from "../hooks/useCapiPersonali";
 import { useAbbinamenti } from "../hooks/useAbbinamenti";
 
+// DEBUG IMPORT per testing
+import { resetAbbinamentiVisti } from "../services/abbinamentoServices";
+
 export default function IlMioGuardaroba() {
   // REDUX HOOKS - migrato da Context API
   const user = useSelector(selectUser);
@@ -50,6 +53,16 @@ export default function IlMioGuardaroba() {
       setLoading(false);
     }
   }, [user]);
+
+  // DEBUG: Esponi funzione globale per testing
+  useEffect(() => {
+    if (user && typeof window !== 'undefined') {
+      window.debugResetAbbinamenti = () => {
+        resetAbbinamentiVisti(user.id);
+        generateAbbinamenti(); // Rigenera abbinamenti
+      };
+    }
+  }, [user, generateAbbinamenti]);
 
   // Effect per marcare come visti quando si lascia la pagina o si cambia tab
   useEffect(() => {

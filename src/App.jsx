@@ -14,9 +14,6 @@ const CreaOutfit = lazy(() => import("./pages/CreaOutfit"));
 const Sviluppatori = lazy(() => import("./pages/sviluppatori"));
 const Profile = lazy(() => import("./pages/Profile"));
 
-// ROUTING DINAMICO - lazy loading per pagine dettaglio
-const DettaglioOutfit = lazy(() => import("./pages/details/DettaglioOutfit"));
-
 // Componente Loading
 const PageLoading = () => (
   <div className="flex items-center justify-center min-h-[50vh]">
@@ -41,9 +38,6 @@ function App() {
           <Route path="/register" element={<Register />} />
           <Route path="/sviluppatori" element={<Sviluppatori />} />
           <Route path="/profile" element={<Profile />} />
-          
-          {/* ROUTING DINAMICO - route con parametri */}
-          <Route path="/outfit/:id" element={<DettaglioOutfit />} />
           
           {/* Route di fallback */}
           <Route path="*" element={<Home />} />
