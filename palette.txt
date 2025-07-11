@@ -1,0 +1,36 @@
+
+Ruolo                          	Colore                       	Hex      	Note d’uso
+---------------------------------------------------------------------------------------------------------------
+Primario                      	Rosa terracotta             	#D27D7D  	Bottoni principali, highlights, CTA
+Secondario                    	Beige cipria                	#F3E7E4  	Sfondi delicati, sezioni soft
+Accento                       	Grigio lavanda              	#A6A1B1  	Elementi decorativi, hover, footer
+Testo principale              	Grigio carbone              	#1E1E1E  	Titoli, testi scuri principali
+Testo secondario              	Grigio medio caldo          	#6B6B6B  	Descrizioni, etichette
+Sfondo alternativo            	Bianco neutro ghiaccio      	#FAFAFA  	Cards, sezioni alternate
+Errore / Stato                	Rosa ruggine intenso        	#B05858  	Toast di errore, badge di alert
+Successo / Stato OK           	Verde salvia pallido        	#D5E2D4  	Toast positivi, conferme
+Info                          	Azzurro informativo         	#D5E7FF  	Toast informativi, notifiche generiche
+Warning                       	Giallo pastello             	#FFE891  	Toast warning, avvisi cautelativi
+Errore chiaro                 	Rosa soft                   	#F8D1D1  	Background per errori bloccanti
+Brand success                 	Pesca chiaro                	#F8D9C6  	Toast successo branding, messaggi premium
+Brand base                    	Rosa cipria scuro           	#EAD4D1  	Info brand, comunicazioni neutre
+Conferma                      	Beige oro                   	#C4A574  	Bottone conferma nei toast custom
+Conferma – Hover scuro        	Oro scuro                   	#A58645  	Hover bottone conferma toast
+Annulla – sfondo chiaro       	Beige pallido               	#E8DAD8  	Bottone "annulla" toast di conferma
+Conferma icona                	Lavanda chiara              	#D4C6F0  	Sfondo icona “?” toast conferma
+Caricamento – sfondo          	Grigio perla                	#F3F4F6  	Toast di caricamento
+Caricamento – bordo           	Grigio soft                 	#E5E7EB  	Gradient secondario loading toast
+
+
+Elemento UI	Tailwind classes	Peso equivalente	Note
+H1	text-4xl font-semibold	600	Titolo principale
+H2 / Section Title	text-2xl font-medium	500	Secondo livello
+Body Text	text-base font-normal	400	Corpo testo normale
+Sottotesto / caption	text-sm font-light	300	Piccoli testi secondari
+Bottoni	text-sm font-medium uppercase tracking-wide	500	Visibilità e chiarezza
+Bold nel testo	font-semibold	600	Uso inline
+
+
+
+
+

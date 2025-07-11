@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #FAFAFA;
+  color: #1E1E1E;
+}
+#root {
+  color: #1E1E1E;
+}
+a {
+  color: #1E1E1E;
+}
+
+
+h1, h2, h3 {
+  font-weight: 700;
+  color: #1E1E1E;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  background: #F3E7E4;
+}
