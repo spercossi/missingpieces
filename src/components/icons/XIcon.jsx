@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function XIcon({ className = "h-6 w-6 text-black mx-5" }) {
   return (
     <svg
