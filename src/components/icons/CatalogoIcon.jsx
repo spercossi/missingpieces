@@ -1,4 +1,4 @@
-const CreaOutfitIcon = () => (
+const CatalogoIcon = () => (
           <svg width="35" height="35" fill="none" viewBox="0 0 26 26" aria-label="Catalogo" role="img">
             <rect x="3" y="3" width="10" height="10" rx="2" fill="#1E1E1E" />
             <rect x="14" y="3" width="10" height="10" rx="2" fill="#90A4AE" />
@@ -14,4 +14,4 @@ const CreaOutfitIcon = () => (
             />
           </svg>
 );
-export default CreaOutfitIcon;
+export default CatalogoIcon;
