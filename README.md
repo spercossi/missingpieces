@@ -27,7 +27,7 @@ MissingPieces è un'app che permette agli utenti di catalogare i propri vestiti,
 
 Clona il repository:
 ```bash
-git clone https://github.com/TUO_USERNAME/missingpieces.git
+git clone https://github.com/spercossi/missingpieces.git
 cd missingpieces
 ```
 
